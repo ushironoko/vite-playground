@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "vuild": "vite build",
+    "build": "vite build",
     "lint": "eslint --ext .ts,.vue .",
     "fix": "eslint --fix --ext .ts,.vue ."
   },
