@@ -1,6 +1,6 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { BaseButton } from '@vite-playground/components'
+import BaseButton from '@vite-playground/components/components/BaseButton.vue'
 
 export default defineComponent({
   components: {
