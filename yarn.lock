@@ -2714,6 +2714,11 @@ es6-promisify@^5.0.0:
   dependencies:
     es6-promise "^4.0.3"
 
+esbuild@^0.2.0:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.2.3.tgz#46b7a7e87eb936bc6314f5107255bc4b43d80b1a"
+  integrity sha512-MtgBJi4lWhzXinVxV4XfUj4fff3W0AXrKW8ZNBq0V24J6js46U+E+i07FWXAn7yKkT/KnyfGzzbo7khc43ZhMg==
+
 escape-html@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
@@ -6128,7 +6133,7 @@ rollup-plugin-terser@^5.3.0:
     serialize-javascript "^2.1.2"
     terser "^4.6.2"
 
-rollup-plugin-vue@^6.0.0-alpha.7:
+rollup-plugin-vue@^6.0.0-alpha.8:
   version "6.0.0-alpha.8"
   resolved "https://registry.yarnpkg.com/rollup-plugin-vue/-/rollup-plugin-vue-6.0.0-alpha.8.tgz#06f1794b44b5779a432581fc5fd35f9d2577da9b"
   integrity sha512-R3SivtQt9J0Fq8A4DKwTrKiW0DvhjPxO4kKZsqm20HbmTJvWGImupaPh036kKla9sU4XMjr9V8+5c1ZMQDm7bg==
@@ -7176,10 +7181,10 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vite@^0.10.0:
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-0.10.2.tgz#863a630115ded1eb239b5a7ed96f73f8c26e0b44"
-  integrity sha512-Oi9ya/bAbx2LOxLoQO9q9BoDEdiiOE6F5dxGc13uabMWLeMKEbgYaNsl8lxpOU77sIaeDEFGEiqLDcJfcuy5Bw==
+vite@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-0.11.1.tgz#339418a001956bae537a86e4c90dba9d9bda555c"
+  integrity sha512-WK1RJ8og6eaT3s4WUOopf/Njvo6rhR6cmnvoS/xEIrUaRiwXBA5W9Diposgoz7BGEXmIXo/VKqP8Jh3Nf9gB9A==
   dependencies:
     "@babel/parser" "^7.9.4"
     "@rollup/plugin-alias" "^3.1.0"
@@ -7193,6 +7198,7 @@ vite@^0.10.0:
     cssnano "^4.1.10"
     debug "^4.1.1"
     es-module-lexer "^0.3.18"
+    esbuild "^0.2.0"
     fs-extra "^9.0.0"
     hash-sum "^2.0.0"
     koa "^2.11.0"
@@ -7209,7 +7215,7 @@ vite@^0.10.0:
     resolve-from "^5.0.0"
     rollup "^2.7.2"
     rollup-plugin-terser "^5.3.0"
-    rollup-plugin-vue "^6.0.0-alpha.7"
+    rollup-plugin-vue "^6.0.0-alpha.8"
     slash "^3.0.0"
     vue "^3.0.0-beta.9"
     ws "^7.2.3"
