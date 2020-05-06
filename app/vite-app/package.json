@@ -4,6 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "DEBUG-dev": "DEBUG=vite* vite",
+    "DEBUG-build": "DEBUG=vite* vite build",
     "lint": "eslint --ext .ts,.vue .",
     "fix": "eslint --fix --ext .ts,.vue ."
   },
