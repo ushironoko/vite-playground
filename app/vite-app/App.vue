@@ -18,10 +18,11 @@ export default defineComponent({
   <div>
     <h1>Hello Vite + Vue 3!</h1>
     <p>Edit ./App.vue to test hot module replacement (HMR).</p>
+    <p>(The sfc in the other package is not HMR'd, but...)</p>
     <p>
       <span>Count is: {{ count }}</span>
       <BaseButton
-        text="increment"
+        text="BaseButton Increment"
         @click="count++"
       />
     </p>
