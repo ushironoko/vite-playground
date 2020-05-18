@@ -7,15 +7,12 @@ module.exports = {
   "extends": [
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier/vue",
-    "plugin:vue/vue3-recommended",
+    "preact"
   ],
-  "parser": "vue-eslint-parser",
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "parser": "@typescript-eslint/parser",
     "ecmaVersion": 2018,
     "warnOnUnsupportedTypeScriptVersion": false,
-    "extraFileExtensions": [".vue"]
   },
   "plugins": [
     "prettier",
@@ -23,5 +20,6 @@ module.exports = {
   ],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/ban-ts-ignore": 0
   },
 }

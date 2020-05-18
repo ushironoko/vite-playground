@@ -1,5 +1,6 @@
 import { h, render } from 'preact'
 import { useState } from 'preact/hooks'
+
 // @ts-ignore
 import { BaseButton } from '@vite-playground/base'
 
@@ -11,11 +12,11 @@ const Counter = () => {
   return (
     <div>
       <p>Count: {count}</p>
-      <BaseButton text="Increment" handleClick={increment}/>
-      <BaseButton text="Decrement" handleClick={decrement}/>
+      <BaseButton text="Increment" handleClick={increment} />
+      <BaseButton text="Decrement" handleClick={decrement} />
     </div>
   )
 }
 
 // @ts-ignore
-render(<Counter/>, document.getElementById('app'))
+render(<Counter />, document.getElementById('app'))

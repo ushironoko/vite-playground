@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "@vite-playground/base": "*",
-    "vue": "^3.0.0-beta.7"
+    "preact": "^10.4.1"
   }
 }
