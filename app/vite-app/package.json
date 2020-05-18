@@ -10,7 +10,7 @@
     "fix": "eslint --fix --ext .ts,.vue ."
   },
   "dependencies": {
-    "vue": "^3.0.0-beta.7",
-    "@vite-playground/components": "*"
+    "@vite-playground/components": "*",
+    "vue": "^3.0.0-beta.7"
   }
 }
