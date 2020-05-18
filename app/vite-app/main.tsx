@@ -18,4 +18,4 @@ const Counter = () => {
 }
 
 // @ts-ignore
-render(Counter, document.getElementById('app'))
+render(<Counter/>, document.getElementById('app'))
