@@ -2,7 +2,7 @@
   "name": "vite-playground",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --jsx-factory=h",
     "build": "vite build",
     "DEBUG-dev": "DEBUG=vite* vite",
     "DEBUG-build": "DEBUG=vite* vite build",
@@ -10,7 +10,7 @@
     "fix": "eslint --fix --ext .ts,.vue ."
   },
   "dependencies": {
-    "@vite-playground/components": "*",
+    "@vite-playground/base": "*",
     "vue": "^3.0.0-beta.7"
   }
 }
