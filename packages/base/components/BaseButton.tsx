@@ -6,7 +6,7 @@ interface Props {
 }
 
 const BaseButton = (props: Props) => {
-return <button onClick={() => props.handleClick()}>{props.text}</button>
+return <button onClick={() => props.handleClick()}>{'ボタン'}</button>
 }
 
 export default BaseButton
