@@ -23,7 +23,7 @@
     "prettier": "^2.0.4",
     "ts-loader": "^7.0.1",
     "typescript": "^3.8.3",
-    "vite": "latest"
+    "vite": "^0.16.10"
   },
   "workspaces": [
     "app/*",
