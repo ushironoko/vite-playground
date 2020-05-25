@@ -1,1 +1,2 @@
-export { default as BaseButton } from './components/BaseButton'
+import BaseButton from './components/BaseButton'
+export { BaseButton }
